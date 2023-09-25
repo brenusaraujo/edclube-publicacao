@@ -83,7 +83,50 @@ nav {
 #minha-div {
   position: relative; /* Define posição relativa no elemento pai */
 }
+.floating-button {
+  position: fixed;
+  bottom: 2rem; /* Ajuste conforme necessário para a posição desejada */
+  right: 2rem; /* Ajuste conforme necessário para a posição desejada */
+  z-index: 1000; /* Garante que o botão esteja sempre acima do conteúdo da página */
+  transform: rotate(-45deg);
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  background-color: #007e99;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
 
+.floating-button:hover {
+  background-color: white;
+  color: #007e99;
+}
+
+.modal-container {
+  position: fixed;
+  z-index: 1000; /* Garante que o botão esteja sempre acima do conteúdo da página */
+  bottom: 7rem; /* Ajuste conforme necessário para a posição desejada */
+  right: 7rem; /* Ajuste conforme necessário para a posição desejada */
+  width: 15rem;
+  height: 12rem;
+  transition: 0.2s;
+  font-size: 1.15rem;
+  color: #007e99;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal {
+  border-radius: 2rem;
+}
 .home-bannerImage-container {
   position: absolute;
   top: -100px;
@@ -133,7 +176,7 @@ nav {
   padding: 1rem;
 }
 
-.primary-text-servico{
+.primary-text-servico {
   font-size: clamp(1rem, 3vw, 1.5rem);
   max-width: 500px;
   color: #6a6a6a;

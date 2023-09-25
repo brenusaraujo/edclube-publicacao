@@ -2,7 +2,7 @@ import React from "react";
 import { FiArrowRight } from "react-icons/fi";
 import { ImWhatsapp } from "react-icons/im"
 import { useState } from "react";
-
+import { FaPhoneVolume } from "react-icons/fa"
 
 function calcularAnoDosCarros(intervaloAnos) {
   const anoAtual = new Date().getFullYear();
@@ -20,6 +20,16 @@ const Home = () => {
   const [telefoneUser, setTelefoneUser] = useState('');
   const [modeloCarro, setModeloCarro] = useState('');
   const [anoCarro, setAnoCarro] = useState(new Date().getFullYear());
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const toggleModal = () => {
+    setIsModalOpen(!isModalOpen);
+  };
+
+  const styleTeste = {
+    backgroundColor: isModalOpen ? 'white' : ' ',
+    border: isModalOpen ? 'white' : ' '
+  }
 
   const formatarTelefone = (input) => {
     const numeroApenasDigitos = input.replace(/\D/g, '');
@@ -150,7 +160,20 @@ const Home = () => {
             </button>
           </form>
         </div>
-
+      </div>
+      <div className="modal-container">
+        <button onClick={toggleModal} className="floating-button"> <FaPhoneVolume /></button>
+        {isModalOpen && (
+          <div style={styleTeste} className="modal">
+            <div className="modal-content">
+              <p><strong>CENTRAL DE ATENDIMENTO 24H:</strong></p>
+              <p>(71) 4141-5780</p>
+              <p>(71) 4141-5790</p>
+              <p>(71) 3032-1140</p>
+              <p>outras regiões: 0800 603 1140</p>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
