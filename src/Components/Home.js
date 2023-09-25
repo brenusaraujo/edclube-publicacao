@@ -167,10 +167,13 @@ const Home = () => {
           <div style={styleTeste} className="modal">
             <div className="modal-content">
               <p><strong>CENTRAL DE ATENDIMENTO 24H:</strong></p>
-              <p>(71) 4141-5780</p>
-              <p>(71) 4141-5790</p>
-              <p>(71) 3032-1140</p>
-              <p>outras regiões: 0800 603 1140</p>
+              <a target="blank" href="tel:+557141415780">(71) 4141-5780</a>
+              <br />
+              <a target="blank" href="tel:+557141415790">(71) 4141-5790</a>
+              <br />
+              <a target="blank" href="tel:+557130321140">(71) 3032-1140</a>
+              <br />
+              <a target="blank" href="tel:+5508006031140">outras regiões: 0800 603 1140</a>
             </div>
           </div>
         )}

@@ -124,6 +124,11 @@ nav {
   justify-content: space-between;
 }
 
+.modal-content a {
+  text-decoration: none;
+  color: #007e99;
+}
+
 .modal {
   border-radius: 2rem;
 }
