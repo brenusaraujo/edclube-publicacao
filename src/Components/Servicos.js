@@ -58,12 +58,14 @@ const Servicos = () => {
       <div className="about-section-text-container">
         <div className="work-section-bottom">
           {coberturaData.map((data) => (
-            <div className="work-section-info" key={data.title}>
+            <div className="servico-info" key={data.title}>
               <div className="info-boxes-img-container">
                 <img src={data.image} alt="" />
+                <h2>{data.title}</h2>
               </div>
-              <h2>{data.title}</h2>
-              <p>{data.text}</p>
+              <div>
+                <p>{data.text}</p>
+              </div>
             </div>
           ))}
         </div>

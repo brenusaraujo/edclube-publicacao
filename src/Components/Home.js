@@ -27,8 +27,11 @@ const Home = () => {
   };
 
   const styleTeste = {
+    width: isModalOpen ? '35rem' : '0rem',
+    height: isModalOpen ? '12rem' : '0rem',
+    bottom: isModalOpen ? '15rem' : '2rem',
+    right: isModalOpen ? '10rem' : '2rem',
     backgroundColor: isModalOpen ? 'white' : ' ',
-    border: isModalOpen ? 'white' : ' '
   }
 
   const formatarTelefone = (input) => {
@@ -105,7 +108,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="home-banner-container">
-        <div className="home-text-section">
+        <div className="home-titulo-section">
           <h1 className="primary-heading">
             O seu clube de benefícios!
           </h1>

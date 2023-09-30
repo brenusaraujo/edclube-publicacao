@@ -1,24 +1,48 @@
 import React from "react";
-import Google from "../Assets/google.png";
-import TikTok from "../Assets/tik-tok.png";
-import Meta from "../Assets/meta.png";
+import Levi from "../Assets/Levi.png";
+import CentralPet from "../Assets/central-pet.png";
+import Cleybi from "../Assets/CLEYBI.png";
+import helpservice from "../Assets/helpservice.png";
+import nordescar from "../Assets/nordescar.jpeg";
+import parceiro1 from "../Assets/parceiro1.jpeg";
+import RsParabrisa from "../Assets/rs-parabrisa.png";
 
 const Work = () => {
   const workInfoData = [
     {
-      image: Google,
-      title: "Consultor 1",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      image: Levi,
+      title: "Levi Autopeças",
+      text: "(71) 3043-9385 / (71) 9 9123-5658",
     },
     {
-      image: TikTok,
-      title: "Consultor 2",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      image: CentralPet,
+      title: "Central Pet",
+      text: "(71) 9 9925-4262",
     },
     {
-      image: Meta,
-      title: "Consultor 3",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      image: Cleybi,
+      title: "Cleybir motors",
+      text: "(71) 3018-1880 / 9 9200-6465",
+    },
+    {
+      image: helpservice,
+      title: "Help Service",
+      text: "(71) 9 9966-5890",
+    },
+    {
+      image: nordescar,
+      title: "Nordescar Monitoramento",
+      text: "(71) 9 9900-1888",
+    },
+    {
+      image: parceiro1,
+      title: "Luciel JJLC",
+      text: "(71) 9 9200-6465",
+    },
+    {
+      image: RsParabrisa,
+      title: "RS para-brisa",
+      text: "(71) 9 8808-8673 / 3212-9256",
     },
   ];
   return (
@@ -26,19 +50,17 @@ const Work = () => {
       <div className="work-section-top">
         <p className="primary-subheading">Nossos parceiros</p>
         <h1 className="primary-heading">Confira quem são nosso parceiros</h1>
-        <p className="primary-text-servico">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
-        </p>
       </div>
       <div className="work-section-bottom">
         {workInfoData.map((data) => (
           <div className="work-section-info" key={data.title}>
             <div className="info-boxes-img-container">
               <img src={data.image} alt="" />
+              <h2>{data.title}</h2>
             </div>
-            <h2>{data.title}</h2>
-            <p>{data.text}</p>
+            <div className="container-parceiros">
+              <p>{data.text}</p>
+            </div>
           </div>
         ))}
       </div>

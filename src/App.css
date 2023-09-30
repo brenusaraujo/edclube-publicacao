@@ -86,7 +86,7 @@ nav {
 .floating-button {
   position: fixed;
   bottom: 2rem; /* Ajuste conforme necessário para a posição desejada */
-  right: 2rem; /* Ajuste conforme necessário para a posição desejada */
+  right: 40%; /* Ajuste conforme necessário para a posição desejada */
   z-index: 1000; /* Garante que o botão esteja sempre acima do conteúdo da página */
   transform: rotate(-45deg);
   border-radius: 50%;
@@ -102,6 +102,16 @@ nav {
   justify-content: center;
   text-decoration: none;
   font-size: 2.5rem;
+  animation: pulo 0.45s ease-in-out infinite;
+}
+@keyframes pulo {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 .floating-button:hover {
@@ -112,12 +122,10 @@ nav {
 .modal-container {
   position: fixed;
   z-index: 1000; /* Garante que o botão esteja sempre acima do conteúdo da página */
-  bottom: 7rem; /* Ajuste conforme necessário para a posição desejada */
-  right: 7rem; /* Ajuste conforme necessário para a posição desejada */
-  width: 15rem;
-  height: 12rem;
+  bottom: 7rem; 
+  right: 25%; 
   transition: 0.2s;
-  font-size: 1.15rem;
+  font-size: 1.3rem;
   color: #007e99;
   text-align: center;
   display: flex;
@@ -158,7 +166,7 @@ nav {
 .home-form-section button {
   width: 300px;
 }
-.home-text-section {
+.home-titulo-section {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -477,13 +485,13 @@ nav {
   flex-direction: column;
 }
 .work-section-info {
-  width: 290px;
-  min-height: 350px;
+  width: 17rem;
+  min-height: 20rem;
   background-color: white;
   padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
   border-radius: 1rem;
@@ -509,7 +517,44 @@ nav {
 }
 
 .work-section-info img {
-  width: 120px;
+  width: 10rem;
+}
+
+.servico-info {
+  width: 17rem;
+  min-height: 30rem;
+  background-color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-radius: 1rem;
+  color: #505050;
+  margin: 1rem 2rem;
+  margin-bottom: 2rem;
+}
+.servico-info h2 {
+  margin: 1rem 0rem;
+}
+
+.servico-info p {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.servico-info img {
+  width: 10rem;
+}
+
+.container-parceiros {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 @media (max-width: 1000px) {
@@ -597,7 +642,7 @@ nav {
     max-width: 80%;
     margin-bottom: 1rem;
   }
-  .home-text-section {
+  .home-titulo-section {
     justify-content: center;
     align-items: center;
   }
@@ -673,6 +718,8 @@ nav {
   .home-bannerImage-container,
   .about-background-image-container {
     display: none;
-    border: 2px solid red;
+  }
+  .modal-container {
+    right: 10%;
   }
 }
