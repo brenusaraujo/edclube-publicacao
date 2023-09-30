@@ -136,6 +136,11 @@ nav {
   text-decoration: none;
   color: #007e99;
 }
+.modal-content p {
+  text-decoration: none;
+  color: rgb(180, 0, 0);
+}
+
 
 .modal {
   border-radius: 2rem;
