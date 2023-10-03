@@ -104,6 +104,11 @@ nav {
   font-size: 2.5rem;
   animation: pulo 0.45s ease-in-out infinite;
 }
+
+.botao-telefone {
+  border-radius: 50%;
+}
+
 @keyframes pulo {
   0%,
   100% {

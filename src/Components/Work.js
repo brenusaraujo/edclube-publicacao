@@ -2,10 +2,11 @@ import React from "react";
 import Levi from "../Assets/Levi.png";
 import CentralPet from "../Assets/central-pet.png";
 import Cleybi from "../Assets/CLEYBI.png";
-import helpservice from "../Assets/helpservice.png";
+import helpservice from "../Assets/helpservice.jpg";
 import nordescar from "../Assets/nordescar.jpeg";
 import parceiro1 from "../Assets/parceiro1.jpeg";
 import RsParabrisa from "../Assets/rs-parabrisa.png";
+import FarmaciaLuiz from "../Assets/farmacialuiz.jpg"
 
 const Work = () => {
   const workInfoData = [
@@ -36,13 +37,18 @@ const Work = () => {
     },
     {
       image: parceiro1,
-      title: "Luciel JJLC",
+      title: "Perfect Car",
       text: "(71) 9 9200-6465",
     },
     {
       image: RsParabrisa,
       title: "RS para-brisa",
       text: "(71) 9 8808-8673 / 3212-9256",
+    },
+    {
+      image: FarmaciaLuiz,
+      title: "Farmácia Luis",
+      text: "(71) 9 9717-0036",
     },
   ];
   return (

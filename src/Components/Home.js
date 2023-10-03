@@ -2,7 +2,7 @@ import React from "react";
 import { FiArrowRight } from "react-icons/fi";
 import { ImWhatsapp } from "react-icons/im"
 import { useState } from "react";
-import { FaPhoneVolume } from "react-icons/fa"
+import BotaoTelefone from "../Assets/botaoassistencia.jpg"
 
 function calcularAnoDosCarros(intervaloAnos) {
   const anoAtual = new Date().getFullYear();
@@ -166,7 +166,9 @@ const Home = () => {
         </div>
       </div>
       <div className="modal-container">
-        <button onClick={toggleModal} className="floating-button"> <FaPhoneVolume /></button>
+        <button onClick={toggleModal} className="floating-button">
+          <img src={BotaoTelefone} alt="botão telefone 24h" className="botao-telefone" />
+        </button>
         {isModalOpen && (
           <div style={styleTeste} className="modal">
             <div className="modal-content">
