@@ -3,11 +3,11 @@ import { ImWhatsapp } from "react-icons/im"
 
 const Contact = () => {
   const [nome, setNome] = useState();
-  const telefone = 5571992402531;
+  const telefoneBoleto = 5571999011086;
   const handleWhatsAppButtonClick = () => {
     const message = `Olá, tudo bem? Meu nome é ${nome} e eu gostaria de uma cotação para meu veículo.`;
 
-    const whatsappUrl = `https://wa.me/${telefone}?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/${telefoneBoleto}?text=${encodeURIComponent(message)}`;
 
     window.open(whatsappUrl, '_blank');
 

@@ -15,6 +15,7 @@ const Home = () => {
   const intervaloAnos = 15;
   const anoDosCarros = calcularAnoDosCarros(intervaloAnos);
   const telefone = 5571992402531;
+  const telefoneBoleto = 5571999011086;
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
   const [telefoneUser, setTelefoneUser] = useState('');
@@ -95,9 +96,9 @@ const Home = () => {
     });
   };
   const handleWhatsAppButtonClickWithoutMessage = () => {
-    const message = `Olá, tudo bem? Gostaria de uma cotação para meu veículo.`;
+    const message = `Olá, tudo bem? Gostaria da segunda via do boleto.`;
 
-    const whatsappUrl = `https://wa.me/${telefone}?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/${telefoneBoleto}?text=${encodeURIComponent(message)}`;
 
     window.open(whatsappUrl, '_blank');
 
@@ -119,7 +120,7 @@ const Home = () => {
             PROTEGER SEU VEÍCULO NÃO CUSTA CARO, IMPREVISTOS SIM!
           </p>
           <button onClick={handleWhatsAppButtonClickWithoutMessage} className="whatsapp-button" target="blank">
-            <ImWhatsapp /> Fale conosco
+            <ImWhatsapp /> Segunda via do boleto
           </button>
         </div>
         <div className="home-form-section">
