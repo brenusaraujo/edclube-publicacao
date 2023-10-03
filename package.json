@@ -1,6 +1,6 @@
 {
-  "name": "landing-page-tutorial",
-  "version": "0.1.0",
+  "name": "edclube-website",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
