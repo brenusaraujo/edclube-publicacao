@@ -4,7 +4,7 @@ const ProtejaPatrimonio = () => {
   return (
     <div className="proteja-section-wrapper">
       <h1>
-        Proteja seu patrimônio!
+        Proteja seu veículo!
       </h1>
       <p>Garanta a sua tranquilidade com proteção veicular que você pode confiar</p>
     </div>

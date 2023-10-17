@@ -117,14 +117,14 @@ const Home = () => {
             *Não somos seguradora
           </p>
           <p className="primary-text">
-            PROTEGER SEU VEÍCULO NÃO CUSTA CARO, IMPREVISTOS SIM!
+            OS BENEFÍCIOS DE PROTEGER VOCÊ E O SEU VEÍCULO NÃO CUSTAM CARO, IMPREVISTOS SIM!
           </p>
           <button onClick={handleWhatsAppButtonClickWithoutMessage} className="whatsapp-button" target="blank">
             <ImWhatsapp /> Segunda via do boleto
           </button>
         </div>
         <div className="home-form-section">
-          <h3 className="home-form-heading">Faça sua cotação agora mesmo!</h3>
+          <h3 className="home-form-heading">Faça sua simulação agora mesmo!</h3>
           <br />
           <form action="post">
             <div className="form-section">

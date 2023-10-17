@@ -13,13 +13,13 @@ const Servicos = () => {
   const coberturaData = [
     {
       image: brazil,
-      title: "Cobertura em todo Brasil",
+      title: "Proteção em todo Brasil",
       text: "Conte com nossa proteção e auxilio em todo o Brasil.",
     },
     {
       image: callCenter,
       title: "Assistência 24/7",
-      text: "Conte com serviços de 800km de guincho, chaveiro, taxi aux, troca de pneu, falta de combustível, socorro elétrico e mecânico. *Verificar condições.",
+      text: "Conte com serviços de 800km de guincho, chaveiro, taxi aux, troca de pneu, falta de combustível, pane elétrica e mecânica. *VERIFIQUE CONDIÇÔES.",
     },
     {
       image: car2,
@@ -34,12 +34,12 @@ const Servicos = () => {
     {
       image: car,
       title: "Carro reserva",
-      text: "Em casos de colisão e seu veículo precise ir para a oficina, conte com a cobertura de carro reserva durante 10 dias. *Verificar condições.",
+      text: "Em casos de colisão e seu veículo precise ir para a oficina, conte com a cobertura de carro reserva por até 10 dias. *VERIFIQUE CONDIÇÕES.",
     },
     {
       image: fenderBender,
       title: "Colisão",
-      text: "Conserto do seu veículo, em casos de acidente.",
+      text: "Conserto do seu veículo, em casos de acidente. VERIFIQUE CONDIÇÕES",
     },
     {
       image: fire,
