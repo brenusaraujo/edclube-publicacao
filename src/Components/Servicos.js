@@ -24,7 +24,7 @@ const Servicos = () => {
     {
       image: car2,
       title: "Perda total",
-      text: "Caso o estrago se configure em Perda Total, ressarcimento de até 100% do valor de tabela FIPE do seu veículo. *Verificar condições",
+      text: "Caso o estrago se configure em Perda Total, ressarcimento de até 100% do valor de tabela FIPE do seu veículo. *VERIFIQUE CONDIÇÕES",
     },
     {
       image: carCollision,
@@ -39,7 +39,7 @@ const Servicos = () => {
     {
       image: fenderBender,
       title: "Colisão",
-      text: "Conserto do seu veículo, em casos de acidente. VERIFIQUE CONDIÇÕES",
+      text: "Conserto do seu veículo, em casos de acidente. *VERIFIQUE CONDIÇÕES",
     },
     {
       image: fire,
@@ -49,7 +49,7 @@ const Servicos = () => {
     {
       image: hacker,
       title: "Furto e roubo",
-      text: "Ressarcimento de até 100% do valor da tabela FIPE em casos de rubo ou furto do seu veículo. *Verificar condições.",
+      text: "Ressarcimento de até 100% do valor da tabela FIPE em casos de rubo ou furto do seu veículo. *VERIFIQUE CONDIÇÕES.",
     },
   ];
   return (
