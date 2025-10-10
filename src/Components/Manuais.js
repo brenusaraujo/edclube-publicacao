@@ -1,9 +1,13 @@
 import React from "react";
 import "./Manuais.css";
-import ManualCarro from "../Assets/EDCLUBEPARTICULAR.pdf";
-import ManualMoto from "../Assets/EDCLUBEMOTOS.pdf";
+import ManualCarro from "../Assets/EDCLUBE - PARTICULAR.pdf";
+import ManualMoto from "../Assets/EDCLUBE - MOTOS.pdf";
 
 const Manuais = () => {
+  const CarIcon = () => <i className="fa-solid fa-car"></i>;
+  const MotorcycleIcon = () => <i className="fa-solid fa-motorcycle"></i>;
+  const ArrowIcon = () => <i className="fa-solid fa-arrow-right"></i>;
+
   return (
     <section className="manuals-section" id="manuais">
       <div className="manuals-container">
@@ -13,7 +17,6 @@ const Manuais = () => {
           benefícios e condições do seu plano de proteção.
         </p>
         <div className="manuals-grid">
-          {/* Card para Veículos Particulares */}
           <a
             href={ManualCarro}
             target="_blank"
@@ -21,7 +24,7 @@ const Manuais = () => {
             className="manual-card"
           >
             <div className="manual-icon">
-              <i className="fa-solid fa-car"></i>
+              <CarIcon />
             </div>
             <h3 className="manual-title">Manual para Veículos</h3>
             <p className="manual-description">
@@ -29,11 +32,9 @@ const Manuais = () => {
               particulares.
             </p>
             <span className="manual-download-button">
-              Visualizar Manual <i className="fa-solid fa-arrow-right"></i>
+              Visualizar Manual <ArrowIcon />
             </span>
           </a>
-
-          {/* Card para Motos */}
           <a
             href={ManualMoto}
             target="_blank"
@@ -41,7 +42,7 @@ const Manuais = () => {
             className="manual-card"
           >
             <div className="manual-icon">
-              <i className="fa-solid fa-motorcycle"></i>
+              <MotorcycleIcon />
             </div>
             <h3 className="manual-title">Manual para Motos</h3>
             <p className="manual-description">
@@ -49,7 +50,7 @@ const Manuais = () => {
               motocicletas.
             </p>
             <span className="manual-download-button">
-              Visualizar Manual <i className="fa-solid fa-arrow-right"></i>
+              Visualizar Manual <ArrowIcon />
             </span>
           </a>
         </div>
