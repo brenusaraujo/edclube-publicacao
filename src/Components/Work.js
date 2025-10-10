@@ -55,7 +55,7 @@ const Work = () => {
     <div className="consultants-section-wrapper">
       <div className="work-section-top">
         <p className="primary-subheading">Nossos parceiros</p>
-        <h1 className="primary-heading">Confira quem são nosso parceiros</h1>
+        <h1 className="primary-heading">Confira quem são nossos parceiros</h1>
       </div>
       <div className="work-section-bottom">
         {workInfoData.map((data) => (
