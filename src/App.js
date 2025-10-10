@@ -6,7 +6,8 @@ import Assistencia from "./Components/Assistencia";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
-import ProtejaPatrimonio from "./Components/ProtejaPatrimonio"
+import ProtejaPatrimonio from "./Components/ProtejaPatrimonio";
+import Manuais from "./Components/Manuais";
 import TagManager from 'react-gtm-module'
 const tagManagerArgs = {
   gtmId: 'GTM-PXG4FM9B'
@@ -21,6 +22,7 @@ function App() {
       <Servicos />
       <ProtejaPatrimonio />
       <Work />
+      <Manuais />
       <Assistencia />
       <Contact />
       <Footer />
