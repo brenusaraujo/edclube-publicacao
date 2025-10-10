@@ -1,7 +1,7 @@
 import React from "react";
 import "./Manuais.css";
-import ManualCarro from "../Assets/EDCLUBE - PARTICULAR.pdf";
-import ManualMoto from "../Assets/EDCLUBE - MOTOS.pdf";
+import ManualCarro from "../Assets/EDCLUBEPARTICULAR.pdf";
+import ManualMoto from "../Assets/EDCLUBEMOTOS.pdf";
 
 const Manuais = () => {
   const CarIcon = () => <i className="fa-solid fa-car"></i>;
