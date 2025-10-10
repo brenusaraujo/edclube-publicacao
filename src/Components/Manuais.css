@@ -1,0 +1,110 @@
+/* --- Estilos para a Seção de Manuais --- */
+
+.manuals-section {
+  padding: 80px 20px;
+  background-color: #f8f9fa;
+  font-family: "Poppins", sans-serif;
+}
+
+.manuals-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #5f5f5f;
+  max-width: 700px;
+  margin: 0 auto 3.5rem auto;
+  line-height: 1.6;
+}
+
+.manuals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+
+.manual-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 35px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.manual-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.manual-icon {
+  font-size: 3.5rem;
+  color: #007bff; /* Cor primária do seu site */
+  margin-bottom: 1.5rem;
+}
+
+.manual-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.8rem;
+}
+
+.manual-description {
+  font-size: 1rem;
+  color: #5f5f5f;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  flex-grow: 1; /* Garante que o botão fique alinhado na parte inferior */
+}
+
+.manual-download-button {
+  display: inline-block;
+  background-color: #007bff; /* Cor primária */
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.manual-card:hover .manual-download-button {
+  background-color: #0056b3; /* Tom mais escuro para hover */
+}
+
+.manual-download-button .fa-arrow-right {
+  margin-left: 8px;
+  transition: transform 0.3s ease;
+}
+
+.manual-card:hover .manual-download-button .fa-arrow-right {
+  transform: translateX(5px);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2.2rem;
+  }
+  .manuals-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
