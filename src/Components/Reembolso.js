@@ -12,21 +12,21 @@ const Reembolso = () => {
                 <p>Esta é uma página de exemplo para a Política de Reembolso da Edclube. O conteúdo a seguir é fictício e serve apenas para fins de demonstração e teste de layout. O texto deverá ser substituído pela política oficial da associação.</p>
 
                 <h2 className="reembolso-subtitle">2. Condições para Solicitação de Reembolso</h2>
-                <p>O associado poderá solicitar o reembolso de valores pagos indevidamente ou em duplicidade. A solicitação deve ser feita através dos nossos canais de atendimento oficiais no prazo de até 7 (sete) dias úteis a contar da data do pagamento.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi..</p>
                 <ul>
-                    <li>Apresentação do comprovativo de pagamento.</li>
-                    <li>Inexistência de débitos pendentes.</li>
-                    <li>A solicitação será analisada pela nossa equipe financeira.</li>
+                    <li>Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.</li>
+                    <li>Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.</li>
+                    <li>Pellentesque congue. Ut in risus volutpat libero pharetra tempor.</li>
                 </ul>
 
                 <h2 className="reembolso-subtitle">3. Processamento do Reembolso</h2>
-                <p>Após a aprovação da solicitação, o valor será reembolsado na conta bancária indicada pelo associado no prazo de até 15 (quinze) dias úteis. Não realizamos reembolsos em dinheiro ou para contas de terceiros.</p>
+                <p>Aenean quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ac, pellentesque eu, porta ut, sem. Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
 
                 <h2 className="reembolso-subtitle">4. Cancelamento da Associação</h2>
-                <p>Em caso de cancelamento da associação, os valores referentes às mensalidades e taxas de adesão não são reembolsáveis, uma vez que correspondem à cobertura e aos benefícios disponibilizados durante o período de vigência.</p>
+                <p>Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor..</p>
 
                 <h2 className="reembolso-subtitle">5. Contato</h2>
-                <p>Para mais informações ou para iniciar uma solicitação de reembolso, entre em contato com o nosso suporte através do e-mail: <a href="mailto:contato@edclube.com.br">contato@edclube.com.br</a>.</p>
+                <p>Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
             </div>
         </div>
     );
