@@ -11,8 +11,7 @@ root.render(
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
-        // <Route path="/reembolso" element={<Reembolso />} />
-        // <Route path="/produto/:id" element={<Produto />} />
+        
       </Routes>
     </Router>
   </React.StrictMode>
