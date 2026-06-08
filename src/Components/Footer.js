@@ -30,6 +30,8 @@ const Footer = () => {
           </a>
           <p>
             Razão Social: Associacao Edclube.mais de Protecao Patrimonial Mutualista
+          </p>
+          <p>
             CNPJ: 32.534.470/0001-21
           </p>
         </div>
