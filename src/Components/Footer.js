@@ -28,6 +28,10 @@ const Footer = () => {
           <a href={URL_FACEBOOK} target="blank">
             <BsFacebook />
           </a>
+          <p>
+            Razão Social: Associacao Edclube.mais de Protecao Patrimonial Mutualista
+            CNPJ: 32.534.470/0001-21
+          </p>
         </div>
       </div>
       <div className="footer-section-two">
