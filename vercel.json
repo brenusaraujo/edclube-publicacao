@@ -3,7 +3,13 @@
     {
       "source": "/(.*)",
       "destination": "https://edclubemais.org/$1",
-      "permanent": true
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "associacaoedclubemais.edclubemais.org"
+        }
+      ]
     }
   ]
 }
